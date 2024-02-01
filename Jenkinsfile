@@ -29,7 +29,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/yildirayocal/Bulutdevops.git'
+                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/Halitatan/Bulutdevops.git'
                 }
             }
         }
